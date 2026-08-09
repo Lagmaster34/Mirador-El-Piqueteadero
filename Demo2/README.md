@@ -56,10 +56,7 @@ python3 -m http.server 8000
    Unsplash verificadas una por una para que el contenido tenga sentido, pero no son
    del negocio. Reemplaza cualquier `--src:url('https://images.unsplash.com/...')` en
    `index.html` por fotos reales cuando estén disponibles.
-3. **Mapa y "Cómo llegar"**: usan una búsqueda de Google Maps por dirección de texto
-   (no se dieron coordenadas exactas). Si tienes el pin exacto del lugar en Google
-   Maps, reemplaza el `src` del iframe y los enlaces "Cómo llegar" en `index.html`.
-4. **Dominio real**: `<link rel="canonical">` y Open Graph usan
+3. **Dominio real**: `<link rel="canonical">` y Open Graph usan
    `https://miradorelpiqueteadero.com/` como marcador de posición.
 
 ## Actualizar el menú
